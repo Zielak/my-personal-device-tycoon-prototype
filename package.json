@@ -1,0 +1,26 @@
+{
+  "name": "my-personal-device-tycoon",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "DEV_SERVER=true rollup -c --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ecsy": "^0.4.2",
+    "three": "^0.120.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-typescript": "^6.0.0",
+    "rollup": "^2.26.11",
+    "rollup-plugin-serve": "^1.0.4",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2"
+  }
+}

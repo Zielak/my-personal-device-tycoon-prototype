@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+canvas {
+  display: block;
+}
+
+.FpsContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: yellow;
+  font-family: monospace;
+}
